@@ -7,9 +7,9 @@ import ru.mondayish.cone.model.Square
 @Test
 class FileReaderTest {
 
-  private val FILE1: String = "squares1.txt"
-  private val FILE2: String = "squares2.txt"
-  private val FILE3: String = "squares3.txt"
+  private val FILE1: String = "files/squares1.txt"
+  private val FILE2: String = "files/squares2.txt"
+  private val FILE3: String = "files/squares3.txt"
 
   @Test
   def readSquaresFromFileTest1(): Unit = {
