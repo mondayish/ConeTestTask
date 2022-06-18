@@ -48,17 +48,5 @@
       <version>4.4</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.specs</groupId>
-      <artifactId>specs</artifactId>
-      <version>1.2.5</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.scalatest</groupId>
-      <artifactId>scalatest_2.13</artifactId>
-      <version>3.1.1</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 </project>

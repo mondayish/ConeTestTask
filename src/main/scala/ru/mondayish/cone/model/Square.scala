@@ -1,5 +1,12 @@
 package ru.mondayish.cone.model
 
+/**
+ * Square model
+ * @param _topLeft top left element of square
+ * @param _topRight top right element of square
+ * @param _bottomLeft bottom left element of square
+ * @param _bottomRight bottom right element of square
+ */
 class Square(private val _topLeft: Int,
              private val _topRight: Int,
              private val _bottomLeft: Int,

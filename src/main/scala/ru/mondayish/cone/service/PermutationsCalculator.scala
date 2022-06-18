@@ -4,8 +4,17 @@ import ru.mondayish.cone.model.Square
 
 import scala.collection.mutable.ListBuffer
 
+/**
+ * Helps to find permutations of squares
+ */
 class PermutationsCalculator {
 
+  /**
+   * Finds all suitable permutations of squares
+   * @param start list with left part
+   * @param nums list with right part
+   * @return all suitable permutations
+   */
   def findAllPermutations(start: List[Square], nums: List[Square]): ListBuffer[List[Square]] = {
     val size = nums.size
     var result = ListBuffer[List[Square]]()
