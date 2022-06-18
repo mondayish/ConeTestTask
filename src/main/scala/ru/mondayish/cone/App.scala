@@ -9,7 +9,7 @@ import scala.collection.mutable.ListBuffer
 object App {
 
   def main(args: Array[String]): Unit = {
-    val squares: List[Square] = new FileReader().readSquaresFromFile("squares3.txt")
+    val squares: List[Square] = new FileReader().readSquaresFromFile("squares0.txt")
     val result: ListBuffer[List[Square]] = new PermutationsCalculator()
       .findAllPermutations(List[Square](), squares)
     println(result.map(x => new ListToStringHelper().makeListOfSquaresPretty(x)).mkString("\n\n"))

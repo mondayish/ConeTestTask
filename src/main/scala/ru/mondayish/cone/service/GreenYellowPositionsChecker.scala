@@ -81,7 +81,7 @@ class GreenYellowPositionsChecker {
     if (permutations.size == 1) {
       permutations.head.bottomLeft <= 10 && permutations.head.topRight <= 10
     } else if (permutations.size == 2) {
-      permutations(1).topRight <= 10
+      permutations(1).bottomRight <= 10
     } else if (permutations.size == 3) {
       permutations(2).bottomLeft <= 10 && permutations.head.bottomLeft + permutations(2).topRight <= 10
     } else if (permutations.size == 5) {
