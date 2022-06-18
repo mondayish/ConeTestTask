@@ -1,4 +1,4 @@
-package ru.mondayish.cone
+package ru.mondayish.cone.model
 
 class Square(private val _topLeft: Int,
              private val _topRight: Int,
