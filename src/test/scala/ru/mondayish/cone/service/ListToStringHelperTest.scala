@@ -15,7 +15,7 @@ class ListToStringHelperTest {
   def makeListOfSquaresPrettyTests(): Unit = {
     val listToStringHelper: ListToStringHelper = new ListToStringHelper()
 
-    assertEquals(listToStringHelper.makeListOfSquaresPretty(List(
+    assertEquals(RESULT1, listToStringHelper.makeListOfSquaresPretty(List(
       new Square(0, 7, 7, 3),
       new Square(3, 7, 1, 2),
       new Square(8, 0, 5, 1),
@@ -28,9 +28,9 @@ class ListToStringHelperTest {
       new Square(1, 7, 3, 8),
       new Square(5, 1, 0, 7),
       new Square(3, 4, 3, 0)
-    )), RESULT1)
+    )))
 
-    assertEquals(listToStringHelper.makeListOfSquaresPretty(List(
+    assertEquals(RESULT2, listToStringHelper.makeListOfSquaresPretty(List(
       new Square(3, 0, 4, 5),
       new Square(4, 6, 0, 1),
       new Square(4, 0, 5, 1),
@@ -43,9 +43,9 @@ class ListToStringHelperTest {
       new Square(1, 6, 4, 0),
       new Square(4, 1, 3, 5),
       new Square(6, 1, 3, 5)
-    )), RESULT2)
+    )))
 
-    assertEquals(listToStringHelper.makeListOfSquaresPretty(List(
+    assertEquals(RESULT3, listToStringHelper.makeListOfSquaresPretty(List(
       new Square(5, 2, 2, 2),
       new Square(5, 5, 1, 4),
       new Square(3, 2, 6, 1),
@@ -58,6 +58,6 @@ class ListToStringHelperTest {
       new Square(3, 3, 3, 4),
       new Square(3, 3, 7, 4),
       new Square(1, 2, 5, 3)
-    )), RESULT3)
+    )))
   }
 }
